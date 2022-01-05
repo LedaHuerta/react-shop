@@ -1,0 +1,42 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica;
+  background: var(--white);
+  &__bg {
+    width: 100%;
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 380px;
+    background-position: center;
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    &--text {
+      display: flex;
+      text-align: center;
+      margin: 5px 0;
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: 3px;
+      color: var(--black);
+    }
+    &--link {
+      display: inline-block;
+      margin: 0.5rem 0;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-decoration: none;
+      text-shadow: none;
+      color: #fff;
+      background: var(--hospital-green);
+      border-radius: 5px;
+    }
+  }
+}
